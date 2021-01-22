@@ -26,7 +26,7 @@ for magician in magicians:
 print(f"I can't wait to see your next trick, {magician.title()}.\n")
 
 
-#    print()
+#print()
 
 
 magicians = ['alice', 'david', 'carolina']
@@ -74,4 +74,4 @@ print(squares)
 
 
 ############################################
-print('\n') #Space for convention only!
+print('\n') #Space for convention only!z
