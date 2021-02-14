@@ -1,1 +1,1 @@
-# Working Python coding journy with GitHub!
+# Working Python coding journey with GitHub!
