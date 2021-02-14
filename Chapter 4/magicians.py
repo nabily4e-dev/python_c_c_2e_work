@@ -3,7 +3,7 @@ print("\n" + ">>>:"), print()#Space for convention only!
 
 
 
-message = ", that wat a great trick!"
+message = ", that was a great trick!"
 message_2 = "I can not wait to see the next trick"
 
 magicians = ['alice', 'david', 'carolina']
