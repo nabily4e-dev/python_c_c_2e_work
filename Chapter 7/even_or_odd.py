@@ -5,18 +5,14 @@ print("\n\n\n\n\n" + ">>>:"), print()  # Spaces for convention only!
 
 
 
+number = input("Enter a number, and I'll tell you if it's even or odd: ")
+number =int(number)
 
-prompt = "\nTell me something, and I will repeat it back to you:"
-prompt += "\nEnter 'quit \ q' to end the program. "
+if number % 2 == 0:
+    print(f"\nThe number {number} is even.")
+else:
+    print(f"\nThe number {number} is odd5.")
 
-active = True
-while active:
-    message = input(prompt)
-
-    if message != 'quit':
-        print(message)
-    else:
-        active = False
 
 
 

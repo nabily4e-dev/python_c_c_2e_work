@@ -1,4 +1,3 @@
-
 ############################################
 print("\n\n\n\n\n" + ">>>:"), print()  # Spaces for convention only!
 ############################################
@@ -6,18 +5,16 @@ print("\n\n\n\n\n" + ">>>:"), print()  # Spaces for convention only!
 
 
 
-prompt = "\nTell me something, and I will repeat it back to you:"
-prompt += "\nEnter 'quit \ q' to end the program. "
+prompt = "\nlease enter the name of a city you have visited:"
+prompt += "\n(Enter 'quit' when you are finished.) "
 
-active = True
-while active:
-    message = input(prompt)
+while True:
+    city = input(prompt)
 
-    if message != 'quit':
-        print(message)
+    if city == 'quit':
+        break
     else:
-        active = False
-
+        print(f"I'd love to go to {city.title()}!")
 
 
 

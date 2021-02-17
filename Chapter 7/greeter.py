@@ -6,18 +6,16 @@ print("\n\n\n\n\n" + ">>>:"), print()  # Spaces for convention only!
 
 
 
-prompt = "\nTell me something, and I will repeat it back to you:"
-prompt += "\nEnter 'quit \ q' to end the program. "
+prompt = "If you tell us who you are, we can personalize what you see."
+prompt += "\nWhat is your first name? "
 
-active = True
-while active:
-    message = input(prompt)
+name = input(prompt)
 
-    if message != 'quit':
-        print(message)
-    else:
-        active = False
+print(f"\nHello, {name}")
 
+age = input("How old are you? ")
+
+print(age)
 
 
 
