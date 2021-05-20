@@ -4,7 +4,8 @@
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
-.vscode-root~/
+.history/
+*./vscode-root
 __pycache__/
 *.py[cod]
 *$py.class
@@ -153,3 +154,4 @@ Thumbs.db
 
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+.history/.gitignore_20210520114529
